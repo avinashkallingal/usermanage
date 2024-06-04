@@ -1,0 +1,48 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form {
+    flex: 1; /* Allow the form to grow to fill available space */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center form items horizontally */
+  }
+  
+  .inputGroup {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 45%; /* Ensure input fields take full width */
+  }
+  
+  .error {
+    color: red;
+    margin-bottom: 15px;
+  }
+  
+  .button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .gotoButton {
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 10px; /* Add some space between the form and the link */
+  }
+  
